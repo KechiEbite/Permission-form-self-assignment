@@ -1,3 +1,32 @@
 body{
     background-color: #fbfd9e;
 }
+.personal_details{
+    border-radius: 2%;
+    background-color: white;
+    border: 30% solid;
+    padding: 3% 6%;
+    font-family: 'Anaheim';
+    margin: 3% 13%;
+    width:55%;
+    height: 70%;
+}
+h1{
+    text-align: center;
+}
+legend{
+    font-size: large;
+    font-weight: bold;
+}
+input{
+    margin:1%;
+}
+fieldset{
+    margin: 1%;
+}
+.button{
+    background-color: red;
+    color: white;
+    border: lightpink;
+    font-size: large;
+}

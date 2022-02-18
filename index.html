@@ -6,13 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Permission to date my daughter</title>
     <link rel="stylesheet" href="all_css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet'>
 </head>
 <body>
     <div class="white_base">
-        <div class="personal_details"></div>
-        <div class="check_all"></div>
-        <div class="political"></div>
-        <div class="essay"></div>
+        <div class="personal_details">
+            <h1>Application for Permission to Date My Daughter</h1>
+            <p><b>Note:</b> Form is to be completed at least 21 days prior to date</p>
+
+            <fieldset>
+                <legend>Personal Details</legend>
+                Name: <input type="text" name="name" id="name" required>
+                <br>
+                Address: <input type="text" required>
+                <br>
+                Email: <input type="text" name="email" id="email">
+                <br>
+                Phone Number: <input type="tel" name="phone_number" id="phone_number" required>
+                <br>
+                IQ: <input type="number" name="iq" id="IQ">
+                <br>
+                Gender <br>
+                <input type="radio" name="Gender" id="male">Male <br>
+                <input type="radio" name="Gender" id="Female">Female <br>
+                <input type="radio" name="Gender" id="Other">Other
+                <br>
+                Date of Proposed Outing: <input type="date" name="dopouting" id="dopouting">
+            </fieldset>
+
+           <fieldset>
+               <legend>Check All That Apply</legend>
+               <input type="checkbox" name="all" id="all">I have tattoos and/or piercings <br>
+               <input type="checkbox" name="all" id="all">I am more than 2 years older than your daughter <br>
+               <input type="checkbox" name="all" id="all">I own a panel van or V8 ute <br>
+               <input type="checkbox" name="all" id="all">I work full-time
+               <input type="checkbox" name="all" id="all">My parents are rich
+               <input type="checkbox" name="all" id="all">This date at a well lit public location
+           </fieldset> 
+
+           <fieldset>
+               Political Persuasion: <select name="dropdown" id="politics" required>
+                  <option value="APC" selected>APC</option>
+                  <option value="PDP">PDP</option>
+                  <option value="APGA">APGA</option>
+                  <option value="None">None</option>
+               </select>
+               Education Level Completed: <select name="dropdown" id="education">
+                   <option value="Primary" selected>Primary</option>
+                   <option value="JuniorSec">Junior Secondary</option>
+                   <option value="seniorsec">Senior Secondary</option>
+                   <option value="Bachelors">Bachelors</option>
+                   <option value="postgrad">Postgraduate</option>
+               </select>
+           </fieldset>
+           
+           <fieldset>
+               <legend>Essay Section</legend>
+               In 50 words or more explain why you want to date my daughter <br>
+               <textarea name="talkabout_it" id="" cols="50" rows="10"></textarea>
+               <br>
+               Please upload contact details for 2 references <br>
+               <textarea name="references" id="" cols="50" rows="10"></textarea><br>
+
+               Upload Police Clearance Certificate, Bank Statement and Medical Certificates here: <input type="button" value="Attach Files" class="button">
+           </fieldset>
+           <input type="submit" value="Submit Your Application" class="button" >
+        </div>  
     </div>
 </body>
 </html>
